@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Malleable Brains — Archive</title>
+  <style>
+    body { margin:0; font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; }
+    header{
+      position: sticky; top: 0; z-index: 10;
+      background: #fff;
+      border-bottom: 1px solid #eee;
+      padding: 10px 14px;
+      display:flex; gap:12px; align-items:center; flex-wrap:wrap;
+    }
+    .brand { font-weight: 800; letter-spacing: -0.02em; }
+    .muted { color:#666; font-size: 13px; }
+    a { color:#0066cc; text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    iframe { border:0; width:100vw; height: calc(100vh - 52px); }
+    code { background:#f2f2f2; padding:2px 6px; border-radius:6px; }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="brand">Malleable Brains — Archive</span>
+    <span class="muted">Previewing</span>
+    <a href="instagram-feed.xml" target="_blank" rel="noopener">instagram-feed.xml</a>
+    <span class="muted">•</span>
+    <a href="media/" target="_blank" rel="noopener">media/</a>
+    <span class="muted">•</span>
+    <a href="https://feedly.com/i/subscription/feed/https://archive.malleablebrains.com/instagram-feed.xml"
+       target="_blank" rel="noopener">Feedly</a>
+  </header>
+
+  <iframe src="instagram-feed.xml" title="RSS feed preview"></iframe>
+</body>
+</html>
